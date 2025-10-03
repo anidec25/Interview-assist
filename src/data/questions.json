@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sum_array",
+    "title": "Sum of array",
+    "description": "Implement `solve(nums)` that returns the sum of integers in the list `nums`.",
+    "function_signature": "def solve(nums):",
+    "example_tests": [
+      {"input": [[1,2,3]], "expected": 6},
+      {"input": [[0,-1,5]], "expected": 4}
+    ]
+  },
+  {
+    "id": "two_sum",
+    "title": "Two Sum",
+    "description": "Given nums and target, implement `solve(nums, target)` that returns indices of two numbers summing to target (any valid pair).",
+    "function_signature": "def solve(nums, target):",
+    "example_tests": [
+      {"input": [[2,7,11,15], 9], "expected": [0,1]},
+      {"input": [[3,2,4], 6], "expected": [1,2]}
+    ]
+  }
+]
